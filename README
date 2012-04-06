@@ -1,0 +1,17 @@
+Cellular Automata Programs
+
+Requirements
+=============
+  1. SBCL, OpenGL, glut libraries
+  2. Quicklisp 
+
+Installation
+============
+   1. in slime
+      (ql:quickload "cl-opengl")
+      (ql:quickload "cl-glut")
+      (ql:quickload "cl-glu")
+
+    load and compile (C-c C-k) slime
+    the programs
+       (run-simulations)
